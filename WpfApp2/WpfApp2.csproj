@@ -1,0 +1,369 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Cards\10OfClubs.jpg" />
+    <None Remove="Images\Cards\10OfDiamonds.jpg" />
+    <None Remove="Images\Cards\10OfHearts.jpg" />
+    <None Remove="Images\Cards\10OfSpades.jpg" />
+    <None Remove="Images\Cards\2OfClubs.jpg" />
+    <None Remove="Images\Cards\2OfDiamonds.jpg" />
+    <None Remove="Images\Cards\2OfHearts.jpg" />
+    <None Remove="Images\Cards\2OfSpades.jpg" />
+    <None Remove="Images\Cards\3OfClubs.jpg" />
+    <None Remove="Images\Cards\3OfDiamonds.jpg" />
+    <None Remove="Images\Cards\3OfHearts.jpg" />
+    <None Remove="Images\Cards\3OfSpades.jpg" />
+    <None Remove="Images\Cards\4OfClubs.jpg" />
+    <None Remove="Images\Cards\4OfDiamonds.jpg" />
+    <None Remove="Images\Cards\4OfHearts.jpg" />
+    <None Remove="Images\Cards\4OfSpades.jpg" />
+    <None Remove="Images\Cards\5OfClubs.jpg" />
+    <None Remove="Images\Cards\5OfDiamonds.jpg" />
+    <None Remove="Images\Cards\5OfHearts.jpg" />
+    <None Remove="Images\Cards\5OfSpades.jpg" />
+    <None Remove="Images\Cards\6OfClubs.jpg" />
+    <None Remove="Images\Cards\6OfDiamonds.jpg" />
+    <None Remove="Images\Cards\6OfHearts.jpg" />
+    <None Remove="Images\Cards\6OfSpades.jpg" />
+    <None Remove="Images\Cards\7OfClubs.jpg" />
+    <None Remove="Images\Cards\7OfDiamonds.jpg" />
+    <None Remove="Images\Cards\7OfHearts.jpg" />
+    <None Remove="Images\Cards\7OfSpades.jpg" />
+    <None Remove="Images\Cards\8OfClubs.jpg" />
+    <None Remove="Images\Cards\8OfDiamonds.jpg" />
+    <None Remove="Images\Cards\8OfHearts.jpg" />
+    <None Remove="Images\Cards\8OfSpades.jpg" />
+    <None Remove="Images\Cards\9OfClubs.jpg" />
+    <None Remove="Images\Cards\9OfDiamonds.jpg" />
+    <None Remove="Images\Cards\9OfHearts.jpg" />
+    <None Remove="Images\Cards\9OfSpades.jpg" />
+    <None Remove="Images\Cards\AOfClubs.jpg" />
+    <None Remove="Images\Cards\AOfDiamonds.jpg" />
+    <None Remove="Images\Cards\AOfHearts.jpg" />
+    <None Remove="Images\Cards\AOfSpades.jpg" />
+    <None Remove="Images\Cards\BlackJoker.jpg" />
+    <None Remove="Images\Cards\CardBack.jpg" />
+    <None Remove="Images\Cards\JOfClubs.jpg" />
+    <None Remove="Images\Cards\JOfDiamonds.jpg" />
+    <None Remove="Images\Cards\JOfHearts.jpg" />
+    <None Remove="Images\Cards\JOfSpades.jpg" />
+    <None Remove="Images\Cards\KOfClubs.jpg" />
+    <None Remove="Images\Cards\KOfDiamonds.jpg" />
+    <None Remove="Images\Cards\KOfHearts.jpg" />
+    <None Remove="Images\Cards\KOfSpades.jpg" />
+    <None Remove="Images\Cards\QOfClubs.jpg" />
+    <None Remove="Images\Cards\QOfDiamonds.jpg" />
+    <None Remove="Images\Cards\QOfHearts.jpg" />
+    <None Remove="Images\Cards\QOfSpades.jpg" />
+    <None Remove="Images\Cards\RedJoker.jpg" />
+    <None Remove="Images\Cars\AquaCar.jfif" />
+    <None Remove="Images\Cars\AquaCar.jpg" />
+    <None Remove="Images\Cars\AquaCar.jpg.jpg" />
+    <None Remove="Images\Cars\BlackCar.jfif" />
+    <None Remove="Images\Cars\BlueCar.jfif" />
+    <None Remove="Images\Cars\BlueCar.jpg" />
+    <None Remove="Images\Cars\BlueCar.jpg.jpg" />
+    <None Remove="Images\Cars\GreenCar.jfif" />
+    <None Remove="Images\Cars\GreenCar.jpg" />
+    <None Remove="Images\Cars\GreenCar.jpg.jpg" />
+    <None Remove="Images\Cars\OrangeCar.jfif" />
+    <None Remove="Images\Cars\OrangeCar.jpg" />
+    <None Remove="Images\Cars\OrangeCar.jpg.jpg" />
+    <None Remove="Images\Cars\PurpleCar.jfif" />
+    <None Remove="Images\Cars\PurpleCar.jpg" />
+    <None Remove="Images\Cars\PurpleCar.jpg.jpg" />
+    <None Remove="Images\Cars\RedCar.jfif" />
+    <None Remove="Images\Cars\RedCar.jpg" />
+    <None Remove="Images\Cars\RedCar.jpg.jpg" />
+    <None Remove="Images\Cars\WarpCar.jfif" />
+    <None Remove="Images\Cars\WarpCar.jpg" />
+    <None Remove="Images\Cars\WarpCar.jpg.jpg" />
+    <None Remove="Images\Cars\WhiteCar.jfif" />
+    <None Remove="Images\Cars\YellowCar.jfif" />
+    <None Remove="Images\Cars\YellowCar.jpg" />
+    <None Remove="Images\Cars\YellowCar.jpg.jpg" />
+    <None Remove="Images\Flowers\educative_logo.jpg" />
+    <None Remove="Images\Flowers\flower1.jpg" />
+    <None Remove="Images\Flowers\flower10.jfif" />
+    <None Remove="Images\Flowers\flower10.jpg" />
+    <None Remove="Images\Flowers\flower11.jfif" />
+    <None Remove="Images\Flowers\flower11.jpg" />
+    <None Remove="Images\Flowers\flower12.jpg" />
+    <None Remove="Images\Flowers\flower13.jpg" />
+    <None Remove="Images\Flowers\flower14.jpg" />
+    <None Remove="Images\Flowers\flower15.jpg" />
+    <None Remove="Images\Flowers\flower2.jpg" />
+    <None Remove="Images\Flowers\flower3.jpg" />
+    <None Remove="Images\Flowers\flower4.jpg" />
+    <None Remove="Images\Flowers\flower5.jpg" />
+    <None Remove="Images\Flowers\flower6.jpg" />
+    <None Remove="Images\Flowers\flower7.jfif" />
+    <None Remove="Images\Flowers\flower7.jpg" />
+    <None Remove="Images\Flowers\flower8.jfif" />
+    <None Remove="Images\Flowers\flower8.jpg" />
+    <None Remove="Images\Flowers\flower9.jfif" />
+    <None Remove="Images\Flowers\flower9.jpg" />
+    <None Remove="Sounds\hurryup.wav" />
+    <None Remove="Sounds\lose.wav" />
+    <None Remove="Sounds\win.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Cards\10OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\10OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\10OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\10OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\2OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\2OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\2OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\2OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\3OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\3OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\3OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\3OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\4OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\4OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\4OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\4OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\5OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\5OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\5OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\5OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\6OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\6OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\6OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\6OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\7OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\7OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\7OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\7OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\8OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\8OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\8OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\8OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\9OfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\9OfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\9OfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\9OfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\AOfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\AOfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\AOfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\AOfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\BlackJoker.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\CardBack.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\JOfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\JOfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\JOfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\JOfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\KOfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\KOfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\KOfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\KOfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\QOfClubs.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\QOfDiamonds.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\QOfHearts.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\QOfSpades.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cards\RedJoker.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\AquaCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\BlueCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\GreenCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\OrangeCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\PurpleCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\RedCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\WarpCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Cars\YellowCar.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Flowers\flower9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\hurryup.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\lose.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\win.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

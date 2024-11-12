@@ -1,0 +1,19 @@
+<Window x:Class="MemoryGame.FireworksWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Celebration" Height="500" Width="500"
+        WindowStartupLocation="CenterOwner" Background="Black">
+    <Grid>
+        <!-->Sparks/Fireworks will be added dynamically right here<-->
+        <Canvas Name="FireworksCanvas" Background="Transparent"/>
+        <!-->Here is where your congratulatory text will be<-->
+        <TextBlock Name="CelebrationText"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   FontSize="24"
+                   Foreground="Gold"
+                   FontWeight="Bold"
+                   Margin="0,20,0,0"
+                   Text="Congratulations! You Win!" />
+    </Grid>
+</Window>
