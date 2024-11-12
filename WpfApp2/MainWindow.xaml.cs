@@ -92,6 +92,7 @@ namespace MemoryGame
                     Owner = this // Center the window relative to the main game window
                 };
                 gameOverWindow.ShowDialog();
+                _isGameInSession = false; // Stopping the game session
             }
         }
         private void StartFlashingBackground()
@@ -662,7 +663,8 @@ namespace MemoryGame
                 Owner = this // Center the fireworks window relative to the main window
             };
             fireworksWindow.ShowDialog(); // Show the fireworks as a modal dialog
-            
+            _isGameInSession = false; // Stopping the game session 
+
         }
         // Saving scores to file
         private void SaveScoreToFile(PlayerScore playerScore)
