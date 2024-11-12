@@ -23,10 +23,17 @@ There is an element of highscores (how quickly someone can flip all the cards co
 You can clear the scores by having the file overwrite an empty list, or you can completely delete the txt file.  I went with the former.
 
 There are many elements to also increase into the game that i left open where i can work on at a later point :
-For example: Adding an option to give the player on changing the back fo the card (currently there is only the one back of the card - blue)
+For example: 
+
+Adding an option to give the player on changing the back fo the card (currently there is only the one back of the card - blue)
 Giving the opetion for multi player so that when one person is done the other player is prompted to take the controls.
 Giving the ability (Toggle) for dark mode.  (Currently i went with a nuetral grey background), maybe themes even, where you can have sounds and colors.  Not sure yet.
 Giving the ability to change the countdown timer to make things more difficult or easier.
 Giving the ability to choose the color for the hurry up element.
+
+Also, after testing this a few more options popped up:
+Will want to have the reset functionaility re-worked so that it's more streamlined.  Meaning possibly having a reset button, and locking the start game from being pressed while inGameSession is true.
+More Sounds:  Card flip Successfully mantch and Card Flips that do not match.
+Updating the size of the cards as they are a bit small.  Would have to re-work them in with the Card Grid area, but should be doable. 
 
 Just things i am thinking of and playing around with.  
