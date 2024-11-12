@@ -33,7 +33,7 @@ namespace MemoryGame
                 HighScoresListBox.Items.Clear();
                 foreach (var score in topScores)
                 {
-                    HighScoresListBox.Items.Add($"{score.PlayerName}: {score.TimeTaken} seconds");
+                    HighScoresListBox.Items.Add($"{score.PlayerName} completed in: {60 - score.TimeTaken} seconds");
                 }
             }
             else

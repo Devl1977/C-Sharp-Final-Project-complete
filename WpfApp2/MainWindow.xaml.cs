@@ -257,7 +257,7 @@ namespace MemoryGame
                 _countdownTimer.Stop();
 
                 // Show a confirmation message box
-                var result = MessageBox.Show("A game is already in session. Would you like to reset the game or continue?",
+                var result = MessageBox.Show("A game is already in session. Would you like to reset the game or continue?" + Environment.NewLine + "Yes: to reset, No: to continue Game",
                                              "Game in Session", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
 
                 if (result == MessageBoxResult.Yes)
