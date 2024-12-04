@@ -1,39 +1,46 @@
-I made the mistake of forgetting to continually committing and publishing to github while working on this project.
-I know i should be better at doing that, i'm still getting used to having to push my work outside of a program im currently working on.
-I will do better.
+# MemoryGame
+# Overview
+### This project was inspired by a suggestion from my professor during our C# class. We were encouraged to come up with project ideas based on what we learned. Drawing from an earlier Java class where we built a memory card flip game, I decided to expand that concept for C#, utilizing the WPF framework.
 
-This project is one where I came up with the idea during class.  Our Professor suggested that we form our own ideas of what was taught during our c# class 
-and use them in our project.  
-I took the idea from our Java class where our teacher made a memory game (card flip).  I took that idea and expanded on it for our c# class utilizing the WPF format.
-It was challenging, fun, frustrating at times, but here is the end look. 
+### The journey was challenging, fun, and occasionally frustrating, but it led to a project I'm proud to present. Here's a summary of what I've built and lessons learned along the way.
 
-The MemoryGame, that i present is a card flip game with different difficulty levels.
-Easy: being images of cars 
-Medium: greater number than easy mode and the images are of flowers (ideaa taken from my Java class but expanded with more images).
-Hard: 54 card deck (52 but with two jokers, black and red).
+# Key Features
+### Gameplay
+### The MemoryGame is a card-flipping game with three difficulty levels:
 
-I used a grid for the card game that would change based on the difficulty level selected. 
-The time limit for the game is always set to 1 minute (this is easily changed in the code but i wanted to keep it consistent so it made things harder depending on the level you progressed to).
-There is a hurry up element where the counter reaches 10 seconds the screen will flash and a sound will play.
+- Easy: Features a small grid with car images.
+- Medium: Larger grid with flower images (expanded on the idea from my Java project).
+- Hard: Full 54-card deck (52 standard cards + 2 jokers).
+### The game uses a grid layout that dynamically adjusts based on the selected difficulty level. Players are challenged to match all cards within a 1-minute time limit.
 
-When you win there is an alert (messagebox) that will popup saying that you won a sound will play unique to winning, and then another screen that shows fireworks and a message for two sends. 
-When you lose you will get an alert much the same as winning that indicates you lost, a sound will play unique to losing, and another screen will show a sad face and that you lost, for two sends.
+# Additional Gameplay Mechanics:
 
-There is an element of highscores (how quickly someone can flip all the cards correctly), this idea came to me from old arcade games like Galaga or Ms Pacman.  
-You can clear the scores by having the file overwrite an empty list, or you can completely delete the txt file.  I went with the former.
+1. Hurry-Up Mode: When the timer reaches 10 seconds, the screen flashes, and a sound plays to increase tension.
+2. Win/Loss Alerts:
+3. Win: Displays a pop-up message, plays a victory sound, and transitions to a fireworks celebration screen for 2 seconds.
+4. Lose: Displays a pop-up message, plays a unique defeat sound, and shows a sad face screen for 2 seconds.
+5. High Scores
+6. The game tracks how quickly players can match all the cards. Inspired by classic arcade games like Galaga or Ms. Pac-Man, high scores add a competitive edge. Scores can be reset by overwriting them with an empty list in the text file (or by deleting the file entirely).
 
-There are many elements to also increase into the game that i left open where i can work on at a later point :
-For example: 
+# Planned Features
+### I left several elements open for future updates to expand and improve the game. Here are some ideas I'm considering:
 
-Adding an option to give the player on changing the back fo the card (currently there is only the one back of the card - blue)
-Giving the opetion for multi player so that when one person is done the other player is prompted to take the controls.
-Giving the ability (Toggle) for dark mode.  (Currently i went with a nuetral grey background), maybe themes even, where you can have sounds and colors.  Not sure yet.
-Giving the ability to change the countdown timer to make things more difficult or easier.
-Giving the ability to choose the color for the hurry up element.
+1. Card Customization: Allow players to select different card backs (currently, there's only one blue card back).
+2. Multiplayer Mode: Enable a turn-based mode where players take turns flipping cards.
+3. Themes and Dark Mode: Add themes with different sounds and colors, as well as a toggle for dark mode.
+4. Timer Adjustment: Allow players to modify the countdown timer to make the game easier or harder.
+5. Hurry-Up Customization: Let players choose the screen flash color or sound for the hurry-up phase.
+6. Known Improvements
+7. While testing the game, I identified some areas for refinement:
 
-Also, after testing this a few more options popped up:
-Will want to have the reset functionaility re-worked so that it's more streamlined.  Meaning possibly having a reset button, and locking the start game from being pressed while inGameSession is true.
-More Sounds:  Card flip Successfully mantch and Card Flips that do not match.
-Updating the size of the cards as they are a bit small.  Would have to re-work them in with the Card Grid area, but should be doable. 
+8. Reset Functionality: Streamline the reset feature, possibly by adding a dedicated reset button and locking the start button during an active game session.
+9. More Sounds: Add audio feedback for successful matches and mismatches.
+10. Card Size Adjustments: The cards are a bit small, so resizing them within the grid layout could improve the user experience.
 
-Just things i am thinking of and playing around with.  
+# Lessons Learned
+### One major takeaway from this project was the importance of frequent commits and pushing changes to GitHub. I often forgot to commit during development, which made managing my progress more difficult. This is something I plan to improve in future projects.
+
+# Final Thoughts
+### Building this game has been an incredible learning experience. While it’s not perfect, I’m excited to continue refining and expanding it. I hope you enjoy playing MemoryGame as much as I enjoyed creating it!
+
+
